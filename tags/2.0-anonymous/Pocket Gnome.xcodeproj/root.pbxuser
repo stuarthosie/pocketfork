@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	0317DF6B126E7FF800765741 /* Plugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 501}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 301}";
+		};
+	};
+	03627E3A126E0E82001BD472 /* PluginController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1160, 3432}}";
+			sepNavSelRange = "{1441, 0}";
+			sepNavVisRange = "{1063, 482}";
+		};
+	};
+	03BB2219112258A00048DE7B /* GateConditionController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 741}}";
+			sepNavSelRange = "{344, 12}";
+			sepNavVisRange = "{0, 1057}";
+		};
+	};
+	03BB227D1122F1240048DE7B /* StrandStatusConditionController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 702}}";
+			sepNavSelRange = "{369, 12}";
+			sepNavVisRange = "{0, 1068}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 61BC61A41267AAAA003921B0 /* Pocket Gnome */;
+		activeTarget = 8D1107260486CEB800E47090 /* Pocket Gnome */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Pocket Gnome */,
+		);
+		breakpoints = (
+			61BC61F51267ACAB003921B0 /* objc_exception_throw */,
+			61BC620E1267AD7B003921B0 /* CGErrorBreakpoint */,
+			610EF5B0126F8AD700601DBF /* PluginController.m:53 */,
+		);
+		codeSenseManager = 61BC61CE1267AAC7003921B0 /* Code sense */;
+		executables = (
+			61BC61A41267AAAA003921B0 /* Pocket Gnome */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					984,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 309299915;
+			PBXWorkspaceStateSaveDate = 309299915;
+		};
+		perUserProjectItems = {
+			610EF5CF126F8B6200601DBF /* PBXTextBookmark */ = 610EF5CF126F8B6200601DBF /* PBXTextBookmark */;
+			610EF5D0126F8B6200601DBF /* PBXTextBookmark */ = 610EF5D0126F8B6200601DBF /* PBXTextBookmark */;
+			610EF5E7126F8BDC00601DBF /* PBXTextBookmark */ = 610EF5E7126F8BDC00601DBF /* PBXTextBookmark */;
+			610EF5F7126F8FBF00601DBF /* PBXTextBookmark */ = 610EF5F7126F8FBF00601DBF /* PBXTextBookmark */;
+			610EF5FE126F918A00601DBF /* PBXTextBookmark */ = 610EF5FE126F918A00601DBF /* PBXTextBookmark */;
+			610EF62F126F934200601DBF /* PBXTextBookmark */ = 610EF62F126F934200601DBF /* PBXTextBookmark */;
+			61BC62071267AD4B003921B0 /* PBXTextBookmark */ = 61BC62071267AD4B003921B0 /* PBXTextBookmark */;
+			61BC621D1267AED1003921B0 /* PBXTextBookmark */ = 61BC621D1267AED1003921B0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 61BC61CD1267AAC7003921B0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1160, 1586}}";
+			sepNavSelRange = "{813, 0}";
+			sepNavVisRange = "{307, 591}";
+		};
+	};
+	610EF5B0126F8AD700601DBF /* PluginController.m:53 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 03627E3A126E0E82001BD472 /* PluginController.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 53;
+		location = ggteabag;
+		modificationTime = 309301943.603321;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	610EF5CF126F8B6200601DBF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 36";
+		rLen = 0;
+		rLoc = 813;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	610EF5D0126F8B6200601DBF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0317DF6B126E7FF800765741 /* Plugin.h */;
+		name = "Plugin.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 301;
+		vrLoc = 0;
+	};
+	610EF5E7126F8BDC00601DBF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7DB2C4490D3BFE4100100B4D /* BotController.m */;
+		name = "BotController.m: 330";
+		rLen = 0;
+		rLoc = 12188;
+		rType = 0;
+		vrLen = 960;
+		vrLoc = 11846;
+	};
+	610EF5F7126F8FBF00601DBF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7DAAE7680D14917E003F1E3C /* PlayerDataController.m */;
+		name = "PlayerDataController.m: 124";
+		rLen = 0;
+		rLoc = 3458;
+		rType = 0;
+		vrLen = 1209;
+		vrLoc = 2953;
+	};
+	610EF5FE126F918A00601DBF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7DD3D40A0D1B2FEB0023D097 /* SpellController.m */;
+		name = "SpellController.m: 103";
+		rLen = 17;
+		rLoc = 3255;
+		rType = 0;
+		vrLen = 1633;
+		vrLoc = 1900;
+	};
+	610EF62F126F934200601DBF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03627E3A126E0E82001BD472 /* PluginController.m */;
+		name = "PluginController.m: 51";
+		rLen = 0;
+		rLoc = 1264;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 268;
+	};
+	61BC61A41267AAAA003921B0 /* Pocket Gnome */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Pocket Gnome";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	61BC61CD1267AAC7003921B0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	61BC61CE1267AAC7003921B0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	61BC61F51267ACAB003921B0 /* objc_exception_throw */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libobjc.A.dylib;
+		modificationTime = 309301943.926324;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = objc_exception_throw;
+	};
+	61BC62071267AD4B003921B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7DAAE71F0D14897D003F1E3C /* MemoryAccess.h */;
+		name = "MemoryAccess.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1389;
+		vrLoc = 0;
+	};
+	61BC620E1267AD7B003921B0 /* CGErrorBreakpoint */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = CoreGraphics;
+		modificationTime = 309301943.603692;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = CGErrorBreakpoint;
+	};
+	61BC621D1267AED1003921B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7DAAE7200D14897D003F1E3C /* MemoryAccess.m */;
+		name = "MemoryAccess.m: 183";
+		rLen = 0;
+		rLoc = 5729;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 5157;
+	};
+	7D220F140D1691E90026DF75 /* MobController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1160, 9230}}";
+			sepNavSelRange = "{14452, 0}";
+			sepNavVisRange = "{14066, 629}";
+		};
+	};
+	7D9712980D248ED4005E3BD1 /* InventoryController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1160, 10868}}";
+			sepNavSelRange = "{22816, 0}";
+			sepNavVisRange = "{22145, 584}";
+		};
+	};
+	7DAAE7190D148972003F1E3C /* Controller.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1629, 27079}}";
+			sepNavSelRange = "{23622, 0}";
+			sepNavVisRange = "{18541, 892}";
+		};
+	};
+	7DAAE71F0D14897D003F1E3C /* MemoryAccess.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 1092}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1389}";
+		};
+	};
+	7DAAE7200D14897D003F1E3C /* MemoryAccess.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 4056}}";
+			sepNavSelRange = "{5729, 0}";
+			sepNavVisRange = "{5157, 1260}";
+			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
+		};
+	};
+	7DAAE7680D14917E003F1E3C /* PlayerDataController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 18330}}";
+			sepNavSelRange = "{3324, 0}";
+			sepNavVisRange = "{2450, 1513}";
+		};
+	};
+	7DB2C4490D3BFE4100100B4D /* BotController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 113321}}";
+			sepNavSelRange = "{12188, 0}";
+			sepNavVisRange = "{11846, 960}";
+		};
+	};
+	7DD3D40A0D1B2FEB0023D097 /* SpellController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 14040}}";
+			sepNavSelRange = "{3255, 17}";
+			sepNavVisRange = "{1900, 1633}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Pocket Gnome */ = {
+		activeExec = 0;
+		executables = (
+			61BC61A41267AAAA003921B0 /* Pocket Gnome */,
+		);
+	};
+}
