@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Pocket Gnome Appcast</title>
+        <link>http://pg.savorydeviate.com/appcast.xml</link>
+        <description>Appcast for PocketGnome</description>
+        <language>en</language>
+        <item>
+            <title>Pocket Gnome 1.5.1.8 (Build 650) </title>
+            <pubDate>Tue, 18 January 2011 15:34:00 -0500</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.1.8 (Build 650) Release Notes </span></p>
+                <ul>
+					<li>New: Shorter delay after looting (so you will move quicker)</li>
+					<li>New: If you're in swift flight form while herbing, you will no longer leave flight form (assuming you have a key bound to sit)</li>
+					<li>New: Pop up appears if PG closes wow explaining why it did</li>
+					<li>New: Removed "log out when honor reaches <x>" is it wasn't working</li>
+					<li>Bug Fix: Should now spirit res if the spirit res is > 30 yards away</li>
+					<li>Bug Fix: <b>Mail Action Profiles now work again!</b></li>
+					<li>Bug Fix: Mail Action Profiles should now work for people w/non-english clients</li>
+					<li>Bug Fix: Bot no longer targest the current player after looting a node</li>
+					<li>Bug Fix: You can now use the - binding</li>
+					<li>Bug Fix: Issue where you would randomly stop after looting a node</li>
+					<li>Bug Fix: Fixed skill levels on some new nodes for cata</li>
+				</ul>
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.1.8.zip" length="4877601" type="application/zip" sparkle:version="650" sparkle:shortVersionString="1.5.1.8" sparkle:dsaSignature="MC0CFD+ZW6aa8wpFp5q2FiAsCaQ8NXafAhUApb8oJj+VmItglD+MWS4XjhND+aY="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.1.7 (Build 648) </title>
+            <pubDate>Tue, 10 January 2011 15:13:00 -0500</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.1.7 (Build 648) Release Notes </span></p>
+                <ul>
+					<li>New: UI cleaned up some</li>
+					<li>New: You can now blacklist your current location (in case you can't find a phasing mob) via the blacklist table on the routes tab</li>
+					<li><b>Bug Fix: You will no longer move to a node, then back to the route, then to the node, etc...</b></li>
+					<li>Bug Fix: Custom macro shouldn't be deselected anymore</li>
+					<li>Bug Fix: Fixed issue where you couldn't add a custom gathering object if you created a brand new profile (thanks j005u)</li>
+					<li>Bug Fix: Res @ Spirit healer now works properly (opps)</li>
+					<li>Bug Fix: Corrected skill level for Khadgar herb</li>
+					<li>Bug Fix: Ghost route calculation failed if there was no ghost route</li>
+					<li>Bug Fix: Plaguebloom removed, Sorrowmoss added</li>
+				</ul>
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.1.7.zip" length="4874488" type="application/zip" sparkle:version="648" sparkle:shortVersionString="1.5.1.7" sparkle:dsaSignature="MC0CFAtjcruu6GqhCXphDWHTNXIzIwsvAhUAn/zY83H6onbhCvW+6mqkGs3vVf4="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.1.6 (Build 640) </title>
+            <pubDate>Tue, 4 January 2011 15:13:00 -0500</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.1.6 (Build 640) Release Notes </span></p>
+                <ul>
+					<li>New: You can add the player's position to be blacklisted (in case you mine the node then forget to blacklist it), click the Blacklisted button on the Routes tab</li>
+					<li>New: You can now gather <b>anything</b>! Check your combat profile!</li>
+					<li>New: When you die, PG will now calculate the shortest route back to your body vs. just running around aimlessly (lightly tested)</li>
+					<li>New: You can now specify the number of mobs near a node when searching for scary units!</li>
+					<li>New: Cleaned up UI (mostly combat profiles)</li>
+					<li>New: Added a save all routes button to the Routes tab</li>
+					<li>New: Numpad equals can now be used as a key binding (thanks j005u)</li>
+					<li>New: In follow/party mode, PG will now move toward a target by following (most of the time) if it's out of range</li>
+					<li>Bug Fix: You no longer need to right click when using CTM (or even enable it)</li>
+					<li>Bug Fix: Mob IDs can now be > 50000 for the alarm</li>
+					<li>Bug Fix: Clicking the config button to the right of the selected route on the Bot tab will now appropriately highlight the route in the Routes tab</li>
+				</ul>
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.1.6.zip" length="4874314" type="application/zip" sparkle:version="640" sparkle:shortVersionString="1.5.1.6" sparkle:dsaSignature="MCwCFEgZTmUiaRnNDPPrEMztpJ/9xHgWAhQSZ7w7AZWD1LxcduoJd9xxK1twPg=="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.1.5 (Build 625) </title>
+            <pubDate>Fri, 31 December 2010 09:07:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.1.5 (Build 625) Release Notes </span></p>
+                <ul>
+					<li>New: You no longer need to enter your herbalism/skinning/mining skill level! PG will detect it automatically! (thanks JuJu!)</li>
+					<li>Bug Fix: Blacklisting nodes will now work correctly (you could add them, but it would fail in 1.5.1.4 when you started the bot</li>
+					<li>Bug Fix: Fishing pools in routes should now work correctly</li>
+					<li>Bug Fix:/startattack option in behaviors will now save correctly (thanks j005u)</li>
+					<li>Bug Fix: When trying to add a new route PG would just spin (stuck in an infinite loop)</li>
+					<li>Bug Fix: It didn't look like you were in combat if your pet aggroed the mob (and the use pet box wasn't checked)</li>
+				</ul>
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.1.5.zip" length="4856963" type="application/zip" sparkle:version="625" sparkle:shortVersionString="1.5.1.5" sparkle:dsaSignature="MC4CFQC88njXjLo+5f7LwV43S0wrQIvrjgIVAK513SlqppizNe93CLyevw1e68aL"/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.1.4 (Build 619) </title>
+            <pubDate>Wed, 29 December 2010 09:07:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.1.4 (Build 619) Release Notes </span></p>
+                <ul>
+					<li>New Pocket Gnome logo and toolbar images!</li>
+					<li>New: You can now ignore nodes if ONLY elites are nearby (check your combat profile)</li>
+					<li>New: Mining/Herbalism for Cataclysm nodes operates correctly</li>
+					<li>New: You can now decrease/increase ALL of your routes nodes by an offset (great for making a ground route a flying one ;)  )</li>
+					<li>New: <b>You can now BLACKLIST NODES!</b> Right click them in the object view and it will be added to the currently selected route! Then you can edit the list of blacklisted nodes on the route tab.</li>
+					<li>New: Twin Peaks and Battle of Gilneas added! You should now be able to run routes in them.</li>
+					<li>New: Faction template updated, so you should no longer have issues w/Worgens! (untested)</li>
+					<li>New: Option to stop looting when bags are full added to the combat profile</li>
+					<li>New: Worgens added to the Players UI</li>
+					<li>New: You can now enter a macro in waypoint actions, vs. having to always have the macro on EVERY toon</li>
+					<li>Bug Fix: If PG says there is an update, there will actually be one now ;)</li>
+					<li>Bug Fix: Chat will no longer be closed if lower left action bar is bound to F13.  BUT - if you are looting or targeting mobs, your chat will be closed.</li>
+					<li>Bug Fix: If you now create a new combat profile, it will be reflected on the main bot screen</li>
+					<li>Bug Fix: No longer need to restart PG if you train fishing, just start/stop</li>
+					<li>Bug Fix: If you start to fly off to your death for no reason, you will be auto corrected after going 300 yards away</li>
+					<li>Bug Fix: Excessive memory reads during fishing has been corrected</li>
+					<li>Bug Fix: Inventory checks should now operate correct (i.e. log out on full inventory)</li>
+					<li>Bug Fix: Mail action issues have been semi corrected</li>
+					<li>Bug Fix: Issue with looting and combat</li>
+					<li>Bug Fix: Searching for nearby mobs will now ignore critters and dead mobs</li>
+					<li>Bug Fix: Various memory leaks fixed by Gnome Overlord</li>
+				</ul>
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.1.4.zip" length="4858509" type="application/zip" sparkle:version="619" sparkle:shortVersionString="1.5.1.4" sparkle:dsaSignature="MCwCFHWh3brdQbQGWtmkQErV5vWlZHcVAhRGfaHg0S7r256JB9u9XaTTrMb4YA=="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.1.3 (Build 573) </title>
+            <pubDate>Wed, 23 June 2010 09:07:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.1.3 (Build 573) Release Notes </span></p>
+                <ul>
+					<li>Gathering nodes added for Catalclysm</li>	
+					<li>BG Queueing may work now (untested)</li>
+					<li>Fixed checking for items in your bags</li>
+					<li>Mounts should be pulled correctly now for following (untested)</li>
+					<li>You can now gather gas clouds</li>	
+				</ul>
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.1.3.zip" length="4438828" type="application/zip" sparkle:version="573" sparkle:shortVersionString="1.5.1.3" sparkle:dsaSignature="MCwCFEj03qZrdXE13UmKghH+5q1X+lmsAhQc+VIzbalDidhcP4YabkmH29Z91w=="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.1.2 (Build 568) </title>
+            <pubDate>Wed, 23 June 2010 09:07:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.1.2 (Build 568) Release Notes </span></p>
+                <ul>
+					<li>Updated for 4.0.3</li>		
+				</ul>
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.1.2.zip" length="4436803" type="application/zip" sparkle:version="568" sparkle:shortVersionString="1.5.1.2" sparkle:dsaSignature="MCwCFHApcHyctfpxz92BWY8ls39GwFz6AhRi9bsgwU9ln1lF6TGVRvXm5flFxw=="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.1.1 (Build 566) </title>
+            <pubDate>Wed, 23 June 2010 09:07:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.1.1 (Build 566) Release Notes </span></p>
+                <ul>
+					<li>Fishing + Applying lure now works correctly</li>
+					<li>Untested: Added options for Holy Power, Eclipse, and Soul Shards for behaviors</li>
+					<li>Untested: Fixed combo points rule</li>
+					<li>Re-wrote how some conditions were calculated (/annoyed)</li>
+					<li>Untested: Rune checks should now function correctly, except death runes (are those still around?)</li>	
+					<li>Security tab removed from Settings (it was pointless)</li>		
+					<li>Updated base fields to use offset signatures (more likely for things to NOT break between patches)</li>		
+				</ul>
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.1.1.zip" length="4593700" type="application/zip" sparkle:version="566" sparkle:shortVersionString="1.5.1.1" sparkle:dsaSignature="MCwCFA0Yj7hRqdpyi5UB0l+1SPb42nn8AhRGGFbD8mozs+jDZgNgL/L+6AIh2A=="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.1 (Build 551) </title>
+            <pubDate>Wed, 23 June 2010 09:07:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.1 (Build 551) Release Notes </span></p>
+                <ul>
+					<li>Updated for 4.0.1!</li>		
+					<li>Offset controller completely re-written, gnome should no longer crash withe goblin!</li>		
+				</ul>
+				
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.1.zip" length="4641332" type="application/zip" sparkle:version="551" sparkle:shortVersionString="1.5.1" sparkle:dsaSignature="MC0CFBFFpaH86rF8r+FQ30QRGwfihpA8AhUAouH88gqmc8Od3uz7kuOlHBQjpsI="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.0.2 (Build 516) </title>
+            <pubDate>Tue, 1 June 2010 13:44:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.0.2 (Build 516) Release Notes </span></p>
+                <ul>
+					<li>Strand of the Ancients - Updated for Horde to walk you off of the boat</li>
+					<li>PvP - Queue preparation weight update</li>
+					<li>PvP - Crash fixed w/respect to PvP route switching and following</li>
+					<li>Bug fix - Deleting an ignore entry no longer delete the combat profile, sorry!</li>
+					<li>Casting - Update on casting when items/spells are no longer usable/available</li>
+					<li>UI - Gathering/Looting/PvP Options moved to combat profiles</li>
+					<li>UI - PvP/Normal is now separated on the main screen</li>
+					<li>UI - Click and drag support added to the rule editor</li>
+					<li>Combat - /startattack option added in behaviors, you no longer have to create a macro</li>
+					<li>Spells - Error handling re-written</li>
+					<li>Movement - Large portion of the movement controller was re-written, should be smoother</li>				
+				</ul>
+				
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.0.2.zip" length="4495973" type="application/zip" sparkle:version="516" sparkle:shortVersionString="1.5.0.2" sparkle:dsaSignature="MC4CFQDDQACNlvCg2W5cFwWPAA2i32T/LgIVAMHKuiimRGVwoFtCBOVXZqfIcmd9"/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.0.3 (Build 518) </title>
+            <pubDate>Wed, 23 June 2010 09:07:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.0.3 (Build 518) Release Notes </span></p>
+                <ul>
+					<li>Updated for 3.3.5</li>
+					<li>WARNING: This has NOT been tested with the new Warden (nor has it been confirmed on mac), use at your own risk</li>			
+				</ul>
+				
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.0.3.zip" length="4496239" type="application/zip" sparkle:version="518" sparkle:shortVersionString="1.5.0.3" sparkle:dsaSignature="MCwCFCpAaC5fLs5XZokOHLNuRIp/5wMmAhRtOJ8myS8nCIUcR5lKEVnx0AHZlw=="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.0.2 (Build 516) </title>
+            <pubDate>Tue, 1 June 2010 13:44:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.0.2 (Build 516) Release Notes </span></p>
+                <ul>
+					<li>Strand of the Ancients - Updated for Horde to walk you off of the boat</li>
+					<li>PvP - Queue preparation weight update</li>
+					<li>PvP - Crash fixed w/respect to PvP route switching and following</li>
+					<li>Bug fix - Deleting an ignore entry no longer delete the combat profile, sorry!</li>
+					<li>Casting - Update on casting when items/spells are no longer usable/available</li>
+					<li>UI - Gathering/Looting/PvP Options moved to combat profiles</li>
+					<li>UI - PvP/Normal is now separated on the main screen</li>
+					<li>UI - Click and drag support added to the rule editor</li>
+					<li>Combat - /startattack option added in behaviors, you no longer have to create a macro</li>
+					<li>Spells - Error handling re-written</li>
+					<li>Movement - Large portion of the movement controller was re-written, should be smoother</li>				
+				</ul>
+				
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.0.2.zip" length="4495973" type="application/zip" sparkle:version="516" sparkle:shortVersionString="1.5.0.2" sparkle:dsaSignature="MC4CFQDDQACNlvCg2W5cFwWPAA2i32T/LgIVAMHKuiimRGVwoFtCBOVXZqfIcmd9"/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.0.1 (Build 506) </title>
+            <pubDate>Sun, 24 May 2010 13:44:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.0.1 (Build 506) Release Notes </span></p>
+                <ul>
+	<li>Mail Actions should actually function now</li>
+	<li>Dropdowns within combat profiles actually populate players now</li>
+	<li>PvP route handling updates</li>
+	<li>Follow updates</li>
+   </ul>
+				
+				]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.0.1.zip" length="4528621" type="application/zip" sparkle:version="506" sparkle:shortVersionString="1.5.0.1" sparkle:dsaSignature="MCwCFChhUiZn9sy0sPHz9mqW7J8f9ULyAhRnj8XePeBnUTcKTSfC8i7Ib5cPmg=="/>
+        </item>
+        <item>
+            <title>Pocket Gnome 1.5.0 (Build 501) </title>
+            <pubDate>Sun, 23 May 2010 15:44:00 -0400</pubDate>
+            <description><![CDATA[<p><span style="font-weight: bold">Pocket Gnome 1.5.0 (Build 501) Release Notes </span></p>
+                <br>Get all of the release notes <a href="http://pg.savorydeviate.com/forum/viewtopic.php?f=14&t=4655">here!</a>]]>
+            </description>
+            <enclosure url="http://pg.savorydeviate.com/download/pocket-gnome-1.5.0.zip" length="4525162" type="application/zip" sparkle:version="500" sparkle:shortVersionString="1.5.0" sparkle:dsaSignature="MCwCFFAjELegaaFU04JimSHIUEa4khMDAhRM74XwCQCyNIh2jjuObFPTfd4uEA=="/>
+        </item>
+
+    </channel>
+</rss>
