@@ -1,5 +1,21 @@
 // !$*UTF8*$!
 {
+	03168C7010FE6CCD00EF241B /* WaypointActionEditor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1831, 4771}}";
+			sepNavSelRange = "{9612, 0}";
+			sepNavVisRange = "{0, 1941}";
+			sepNavWindowFrame = "{{15, 46}, {1890, 1008}}";
+		};
+	};
+	03168EE210FF713000EF241B /* ActionController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1831, 880}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 653}";
+			sepNavWindowFrame = "{{15, 46}, {1890, 1008}}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 5F7315CF13708969008BEA25 /* Pocket Gnome */;
@@ -14,9 +30,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					1473,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -31,8 +47,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 326142313;
-			PBXWorkspaceStateSaveDate = 326142313;
+			PBXPerProjectTemplateStateSaveDate = 326222265;
+			PBXWorkspaceStateSaveDate = 326222265;
 		};
 		sourceControlManager = 5F7315F61370896F008BEA25 /* Source Control */;
 		userBuildSettings = {
@@ -54,6 +70,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -61,6 +78,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = "Pocket Gnome";
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -78,6 +97,14 @@
 	5F7315F71370896F008BEA25 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	7D370B0C0E7350DD002FE3A4 /* Action.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1831, 1404}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1815}";
+			sepNavWindowFrame = "{{15, 46}, {1890, 1008}}";
+		};
 	};
 	8D1107260486CEB800E47090 /* Pocket Gnome */ = {
 		activeExec = 0;
