@@ -1,13 +1,56 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= Offsets for 4.1.0 =
 
-Add your content here.
+Call to arms! 
 
+We are currently working on two different projects at once here, first we need to apply and bandage and get the 1.5.1.8 release patched and out the door. This means we need to hunt down the offsets and get the old code updated. Second we are working on a way to automate this, this will take the bulk of our time. For now we will apply the bandage and the start working towards the future. 
 
-= Details =
+= Current offsets / list =
+Below is a list of offsets we need and ones we have, if you can help please shoot an email to pocketfork1@gmail.com :
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+* *CTM_ACTION:* 0x118A6C8
+* *BagListOffset:* 0x1069880
+* *BaseField_Spell_ToCast:* 0xA10
+* *BaseField_Spell_ChannelTimeStart:* 0xA38
+* *CTM_GUID:* 0x118A6D8
+* *PLAYER_CURRENT_ZONE:* 0x109A684
+* *COMBO_POINTS_STATIC:* 0xFCF1E0
+* *HOTBAR_BASE_STATIC:* 0x100D300
+* *BaseField_Spell_TimeEnd:* 0A2C
+* *PlayerField_Pointer:*
+* *PLAYER_NAME_LIST:*
+* *ITEM_IN_LOOT_WINDOW:*
+* *Lua_IsUsableAction:*
+* *FIRST_OBJECT_OFFSET:*
+* *Lua_GetBindingKey:*
+* *MACRO_LIST_PTR:*
+* *BaseField_Spell_TimeStart:* 0A28
+* *WorldState:*
+* *Lua_GetWorldStateUIInfo:*
+* *Lua_GetBattlefieldWinner:*
+* *Lua_GetNumCompanions:*
+* *PARTY_LEADER_PTR:* FCF9B0
+* *CTM_SCALE:* 118A6E0
+* *Lua_GetPartyMember:*
+* *CORPSE_POSITION_STATIC:* 106B050
+* *BaseField_Spell_Casting:* 0AIC
+* *LAST_SPELL_THAT_DIDNT_CAST_STATIC:* 177DD20
+* *Lua_GetRuneCount:*
+* *PLAYER_GUID_NAME:*
+* *CHAT_BOX_OPEN_STATIC:*
+* *ACCOUNT_NAME_STATIC:*
+* *CHATLOG_START:* 100FBDC
+* *CTM_DISTANCE:* 118A6E4
+* *lua_GetSpellBookItemInfo:* 1099174
+* *SkillLineOffset:*
+* *BaseField_Spell_ChannelTimeEnd:* 0A38
+* *SERVER_NAME_STATIC:*
+* *Lua_IsUsableActionNotEnough:*
+* *OBJECT_LIST_LL_PTR:*
+* *CD_LIST_STATIC:*
+* *LAST_RED_ERROR_MESSAGE:* 106A480
+* *BATTLEGROUND_STATUS:*
+* *CTM_POS:* 118A3E4
+* *BaseField_Spell_Channeling:* 0A30
+* *TARGET_TABLE_STATIC:*
