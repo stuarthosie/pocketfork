@@ -44,9 +44,9 @@ enum eUnitBaseFields {
     //BaseField_Spell_TimeEnd             = 0xB1C,
     
 	// lua_UnitChannelInfo
-    //BaseField_Spell_Channeling          = 0xB20,	// this is the spell ID
-    BaseField_Spell_ChannelTimeStart    = 0xB24,	// same time value as currentTime
-    BaseField_Spell_ChannelTimeEnd      = 0xB28,
+    //BaseField_Spell_Channeling        = 0xA30, // 4.1.0 - Tanaris has this commented, not sure why yet, so will leave.
+    BaseField_Spell_ChannelTimeStart    = 0xA34, // 4.1.0
+    BaseField_Spell_ChannelTimeEnd      = 0xA38, // 4.1.0
     
     BaseField_SelectionFlags            = 0xB30,	// (1 << 12) when a unit is selected, (1 << 13) when it is focused
     
@@ -54,14 +54,14 @@ enum eUnitBaseFields {
     
     // BaseField_CurrentStance          = 0xB40, // this seems to have dissapeared in 3.0.8
     
-    BaseField_Auras_ValidCount          = 0xF3C,
-    BaseField_Auras_Start               = 0xCFC,
+    BaseField_Auras_ValidCount          = 0xF3C, // still dont have
+    BaseField_Auras_Start               = 0xBF0, // 4.1.0
     
     // I'm not entirely sure what the story is behind these pointers
     // but it seems that once the player hits > 16 buffs/debuffs (17 or more)
     // the Aura fields in the player struct is abandoned and moves elsewhere
-    BaseField_Auras_OverflowValidCount  = 0xD00,
-    BaseField_Auras_OverflowPtr1        = 0xD04,
+    BaseField_Auras_OverflowValidCount  = 0xBF4, // 4.1.0
+    BaseField_Auras_OverflowPtr1        = 0xBF8, // 4.1.0
 };
 
 // Added from: http://www.mmowned.com/forums/wow-memory-editing/257771-wow-constant-data-enums-structs-etc.html
