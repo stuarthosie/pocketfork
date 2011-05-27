@@ -18,19 +18,20 @@ enum MovementFlags{
 };
 
 enum eUnitBaseFields {
-    BaseField_XLocation                 = 0x888,  // 3.0.9: 0x7C4
-    BaseField_YLocation                 = 0x88C,  // 3.0.9: 0x7C8
-    BaseField_ZLocation                 = 0x890,  // 3.0.9: 0x7CC
-    BaseField_Facing_Horizontal         = 0x894,  // 3.0.9: 0x7D0  // [0, 2pi]
-    BaseField_Facing_Vertical           = 0x898,  // 3.0.9: 0x7D0  // [-pi/2, pi/2]
+	
+	BaseField_XLocation                 = 0x780, // 4.1.0
+    BaseField_YLocation                 = 0x784, // 4.1.0
+    BaseField_ZLocation                 = 0x788, // 4.1.0
+    BaseField_Facing_Horizontal         = 0x78C, // 4.1.0
+    BaseField_Facing_Vertical           = 0x790, // 4.1.0
     
-    BaseField_MovementFlags             = 0x8B8,  // 3.0.9: 0x7F0
+    BaseField_MovementFlags             = 0x7B0, // 4.1.0
     
-    BaseField_RunSpeed_Current          = 0x900,	// 3.0.9: 0x838
-    BaseField_RunSpeed_Walk             = 0x904,	// (you sure this is runspeed walk? - i noticed it was 2.5, yet current speed when walking was 7.0) 3.0.9: 0x83C
-    BaseField_RunSpeed_Max              = 0x908,	// 3.0.9: 0x840
-    BaseField_RunSpeed_Back             = 0x90C,	// 3.0.9: 0x844
-    BaseField_AirSpeed_Max              = 0x918,	// 3.0.9: 0x850
+	BaseField_RunSpeed_Current          = 0x7F8, // 4.1.0
+    BaseField_RunSpeed_Walk             = 0x7FC, // 4.1.0
+    BaseField_RunSpeed_Max              = 0x800, // 4.1.0
+    BaseField_RunSpeed_Back             = 0x804, // 4.1.0
+    BaseField_AirSpeed_Max              = 0x810, // 4.1.0
     
 	// lua_SpellStopCasting
     //BaseField_Spell_ToCast              = 0xB00,	// This is the spell we WANT to cast, and are waiting for the server to realize it should cast (the below will be set when it's been verified by the server) 
